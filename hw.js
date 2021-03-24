@@ -5,4 +5,4 @@ let makeTeamsFolderObj = require("./commands/teamsFolder");
 let getPlayerObj = require("./commands/getPlayer");
 
 makeTeamsFolderObj.mtf(url);
-//getPlayerObj.getPlayer(url);
+getPlayerObj.getPlayer(url);
