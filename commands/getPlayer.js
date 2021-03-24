@@ -4,8 +4,8 @@ let request = require("request");
 let path = require("path");
 let PDFDocument = require("pdfkit");
 
-let url ="https://www.espncricinfo.com/series/ipl-2020-21-1210595";
-playerData(url);
+// let url ="https://www.espncricinfo.com/series/ipl-2020-21-1210595";
+// playerData(url);
 
 function playerData(url){
     let newUrl = url+"/match-results";
